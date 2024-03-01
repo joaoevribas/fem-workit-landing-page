@@ -1,0 +1,61 @@
+:root {
+  --clr-p-dark-purple: #24053e;
+  --clr-p-ligth-green: #44ffa1;
+  --clr-n-grey: #584d62;
+  --clr-n-off-white: #fcf8ff;
+  --clr-n-white: #fff;
+
+  --ff-base: "Manrope", sans-serif;
+  --ff-headings: "Fraunces", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* color: var(--clr-n-white); */
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
